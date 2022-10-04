@@ -113,11 +113,73 @@ right: 732px;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+}
 
-/* Dark blue/dark-blue-300 */
-color: #0A3871;
+.nuevoJuego {
+position: relative;
+top: 700px;
+left: 400px;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px;
+gap: 8px;
+width: 332px;
+height: 67px;
+background: #0A3871;
+border-radius: 24px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+color: #FFFFFF;
+justify-content: center;
 
-/* Dark blue/dark-blue-300 */
+}
+
+.desistir{
+bottom: 20px;
+position: absolute;
+left: 756px;
+top: 700px;
+box-sizing: border-box;
+padding: 24px;
+gap: 8px;
+width: 332px;
+height: 67px;
 border: 1px solid #0A3871;
 border-radius: 24px;
+flex: none;
+order: 1;
+flex-grow: 1;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+align-items: center;
+justify-content: center;
+color: #0A3871;
+
+
+}
+
+.pie{
+display: block;
+position: relative;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+color: #0A3871;
+justify-content: center;
+top: 750px;
 }
