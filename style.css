@@ -29,23 +29,16 @@ body{
     }
 
 .buttonAgregarNuevaPalabra {
-   /* Button */
-
 box-sizing: border-box;
-
-/* Auto layout */
 align-items: center;
 text-align: center;
 padding: 24px;
 gap: 8px;
-
 position: absolute;
 width: 280px;
 height: 67px;
 left: 579px;
 top: 554px;
-
-/* Dark blue/dark-blue-300 */
 border: 1px solid #0A3871;
 border-radius: 24px;
 color: #0A3871;
@@ -57,4 +50,74 @@ font-size: 16px;
 line-height: 19px;
 text-align: center;
 
+}
+
+.inputNuevaPalabra {
+position: absolute;
+width: 299px;
+height: 48px;
+left: 376px;
+top: 256px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 150%;
+color: #0A3871;
+background-color: transparent;
+border: none;
+outline: none;
+}
+
+
+.inputNuevaPalabra::placeholder{
+    color: #0A3871;
+}
+
+.guardaryempezar {
+position: relative;
+padding: 24px;
+gap: 8px;
+width: 332px;
+height: 67px;
+background: #0A3871;
+border-radius: 24px;
+align-items: center;
+text-align: center;
+justify-content: center;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+color: #FFFFFF;
+top: 701px;
+left: 376px;
+right: 732px;
+}
+
+.cancelar{
+    position: relative;
+    box-sizing: border-box;
+    left: 400px;
+    top: 701px;
+    padding: 24px;
+    gap: 8px;
+    width: 332px;
+    height: 67px;
+    color: #0A3871;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+/* Dark blue/dark-blue-300 */
+color: #0A3871;
+
+/* Dark blue/dark-blue-300 */
+border: 1px solid #0A3871;
+border-radius: 24px;
 }
