@@ -185,8 +185,11 @@ top: 800px;
 }
 
 #dibujoahorcado{
-    width: 40%;
-    margin: 0 30% 50px 30%;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    top: 150px;
+    left: 570px;
 }
 
 
@@ -196,7 +199,7 @@ top: 800px;
     width: 464px;
     height: 152px;
     left: 500px;
-    top: 475px;
+    top: 400px;
     font-size: 80px;
     color: #0A3871;
     justify-content: center;
