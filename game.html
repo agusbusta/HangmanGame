@@ -8,12 +8,14 @@
     <tItle>EL AHORCADO GAME</tItle>
 </head>
 <body>
-    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="game.js"></script>
     <img src="../ahorcadogame-allura/Vector.png" class="logo"> 
-    <button class="nuevoJuego" id="nuevoJuego" onclick="restartGame()">Nuevo Juego</button>
+    <canvas id="dibujoahorcado" width="450px" height="500px"></canvas>
+    <button class="nuevoJuego" id="nuevoJuego" onclick="palabraElegida()">Nuevo Juego</button>
     <button class="desistir" id="desistir" onclick="goToIndex()">Desistir</button>
+
 </body>
-<footer>
+    <h1 id="guiones" class="guiones"></h1>
     <h3 class="pie">COPYRIGHT TODOS LOS DERECHOS RESERVADOS - AGUSTIN BUSTAMANTE</h3>
-</footer>
+
 </html>
