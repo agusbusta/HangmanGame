@@ -23,17 +23,14 @@ function palabraElegida() {
     let pantalla = document.querySelector("canvas");
     let pincel = pantalla.getContext("2d");
     dibujarsuelo(pincel);
-
-
 }
 
 //Detectar tecla presionada y hacerla mayuscula. 
 
-document.addEventListener("keydown", teclaPresionada)
+document.addEventListener("keydown", teclaPresionada);
 
 function teclaPresionada(event) {
-    const teclaPresionada = event.key.toUpperCase();
-
+    const teclaPresionada = event.key.toUpperCase()
     const palabraElegida = sessionStorage.getItem("palabraElegida");
     let letrasSeparadas = palabraElegida.split('');
     const letraAcertada = document.getElementById("guiones").value;
@@ -43,15 +40,7 @@ function teclaPresionada(event) {
     let errores = 0;
 
 
-
-    for (contador = 0; contador < letrasSeparadas.length; contador++) {
-        let spanGuion = document.getElementById(`${contador}`);
-        if (teclaPresionada == letrasSeparadas[contador]) {
-        spanGuion.innerHTML = teclaPresionada;
-        }
-    }
-
-    for (contadorErrores = 7; contadorErrores > errores; contadorErrores--){
+    if(!palabraElegida.includes(teclaPresionada)){
         errores++;
         switch (errores) {
             case 1:
@@ -83,16 +72,14 @@ function teclaPresionada(event) {
                 dibujarlegizq(pincel);
                 break;
         }
-
     }
-    
-}
 
-
-
-
-
-
+    else{
+        for (contador = 0; contador < letrasSeparadas.length; contador++) {
+            let spanGuion = document.getElementById(`${contador}`);
+            if (teclaPresionada == letrasSeparadas[contador]) {
+            spanGuion.innerHTML = teclaPresionada;
+            }}}}
 
 //Secciones de dibujar horca
 
