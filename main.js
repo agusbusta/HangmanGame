@@ -8,6 +8,7 @@ function iniciarNuevoJuego(){
     document.getElementById("buttonAgregarNuevaPalabra").style.display = "none";
     sessionStorage.setItem("palabraElegida",palabra);
     window.location.href="game.html";
+  
     
 }
 
