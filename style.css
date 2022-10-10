@@ -225,3 +225,47 @@ color: #0A3871;
     
 
 }
+
+
+.perdiste{
+    display: none;
+    position: absolute;
+    width: 317px;
+    height: 114px;
+    left: 561px;
+    top: 402px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    align-items: center;
+    text-align: center;
+    background: #0A3871;
+    border-radius: 24px;
+    color: #fff;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.ganaste{
+    display: none;
+    position: absolute;
+    width: 317px;
+    height: 114px;
+    left: 561px;
+    top: 402px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    align-items: center;
+    text-align: center;
+    background: #0A3871;
+    border-radius: 24px;
+    color: #fff;
+    margin: auto;
+    padding-top: 50px;
+}
+
